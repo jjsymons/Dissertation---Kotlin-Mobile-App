@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Day Colors -->
+    <color name="PrimaryColor">#039be5</color>
+    <color name="PrimaryColorVariant">#63ccff</color>
+    <color name="PrimaryText">#0A1045</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_main">#7d5fff</color>
+    <color name="blue_main">#18dcff</color>
+    <color name="yellow_main">#fff200</color>
+
+    <color name="main_background">#00C2D1</color>
+
+    <color name="SecondaryColor">#616161</color>
+    <color name="SecondaryColorVariant">#373737</color>
+    <color name="SecondaryText">#ffffff</color>
+
+
+</resources>

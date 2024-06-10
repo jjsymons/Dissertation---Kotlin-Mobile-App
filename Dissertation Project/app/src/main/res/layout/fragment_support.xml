@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryColor"
+    tools:context=".fragments.main_page_fragments.SupportFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/support"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/need_support"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+    <TextView
+        android:id="@+id/tv_gambling_charities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/debt_and_gambling_support"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_charity_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/charity_page"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_gambling_charities">
+
+        <TextView
+            android:id="@+id/tv_charity_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textAlignment="textStart"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="GamCare:" />
+
+        <ImageView
+            android:id="@+id/im_phoneOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_one" />
+
+        <TextView
+            android:id="@+id/tv_charity_one_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/im_phoneOne"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_one"
+            tools:text="0123456789" />
+
+        <ImageView
+            android:id="@+id/im_emailOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/im_phoneOne"
+            app:layout_constraintTop_toBottomOf="@id/im_phoneOne"
+            android:src="@drawable/ic_web"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_charity_one_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/tv_charity_one_phone"
+            app:layout_constraintTop_toTopOf="@id/im_emailOne"
+            tools:text="example.co.uk" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_charity_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/charity_page"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_charity_one">
+
+        <TextView
+            android:id="@+id/tv_charity_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="GamCare:" />
+
+        <ImageView
+            android:id="@+id/im_phoneThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_three" />
+
+        <TextView
+            android:id="@+id/tv_charity_three_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/im_phoneThree"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_three"
+            tools:text="0123456789" />
+
+        <ImageView
+            android:id="@+id/im_emailThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/im_phoneThree"
+            app:layout_constraintTop_toBottomOf="@id/im_phoneThree"
+            android:src="@drawable/ic_web"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_charity_three_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/tv_charity_three_phone"
+            app:layout_constraintTop_toTopOf="@id/im_emailThree"
+            tools:text="example.co.uk" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_charity_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/charity_page"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_charity_three">
+
+        <TextView
+            android:id="@+id/tv_charity_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="GamCare:" />
+
+        <ImageView
+            android:id="@+id/im_phoneFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_four" />
+
+        <TextView
+            android:id="@+id/tv_charity_four_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/im_phoneFour"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_four"
+            tools:text="0123456789" />
+
+        <ImageView
+            android:id="@+id/im_emailFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/im_phoneFour"
+            app:layout_constraintTop_toBottomOf="@id/im_phoneFour"
+            android:src="@drawable/ic_web"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_charity_four_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/tv_charity_four_phone"
+            app:layout_constraintTop_toTopOf="@id/im_emailFour"
+            tools:text="example.co.uk" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_mental_charities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/mental_support"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_charity_four" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_charity_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/charity_page"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_mental_charities">
+
+        <TextView
+            android:id="@+id/tv_charity_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="GamCare:" />
+
+        <ImageView
+            android:id="@+id/im_phoneFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_five" />
+
+        <TextView
+            android:id="@+id/tv_charity_five_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/im_phoneFive"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_five"
+            tools:text="0123456789" />
+
+        <ImageView
+            android:id="@+id/im_phoneFiveTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_phone"
+            app:layout_constraintStart_toEndOf="@id/tv_charity_five_phone"
+            app:layout_constraintTop_toTopOf="@id/tv_charity_five_phone"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/tv_charity_phoneFiveTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/tv_charity_five_phone"
+            app:layout_constraintStart_toEndOf="@id/im_phoneFiveTwo"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            tools:text="0123456789"/>
+
+        <ImageView
+            android:id="@+id/im_emailFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/im_phoneFive"
+            app:layout_constraintTop_toBottomOf="@id/im_phoneFive"
+            android:src="@drawable/ic_web"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_charity_five_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/tv_charity_five_phone"
+            app:layout_constraintTop_toTopOf="@id/im_emailFive"
+            tools:text="example.co.uk" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_charity_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/charity_page"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_charity_five">
+
+        <TextView
+            android:id="@+id/tv_charity_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/PrimaryColor"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="GamCare:" />
+
+        <ImageView
+            android:id="@+id/im_phoneSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_six" />
+
+        <TextView
+            android:id="@+id/tv_charity_six_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/im_phoneSix"
+            app:layout_constraintTop_toBottomOf="@id/tv_charity_six"
+            tools:text="0123456789" />
+
+        <ImageView
+            android:id="@+id/im_emailSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/im_phoneSix"
+            app:layout_constraintTop_toBottomOf="@id/im_phoneSix"
+            android:src="@drawable/ic_web"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_charity_six_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@id/tv_charity_six_phone"
+            app:layout_constraintTop_toTopOf="@id/im_emailSix"
+            tools:text="example.co.uk" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

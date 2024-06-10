@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout android:layout_width="match_parent"-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/news_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/tv_subjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Subject"
+                />
+
+            <TextView
+                android:id="@+id/tv_dateTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/last_attempt"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@id/tv_questionNumberText"
+                app:layout_constraintTop_toBottomOf="@id/tv_subjectName"
+                />
+
+            <TextView
+                android:id="@+id/tv_dateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_dateTimeText"
+                tools:text="Example"
+                />
+
+            <TextView
+                android:id="@+id/tv_typeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/type"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@id/tv_dateTimeText"
+                app:layout_constraintTop_toBottomOf="@id/tv_dateTimeText"
+                tools:text="Example"
+                />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_typeText"
+                tools:text="example"
+                />
+
+            <TextView
+                android:id="@+id/tv_questionNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/total_questions"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_typeText"
+                />
+
+            <TextView
+                android:id="@+id/tv_questionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_questionNumberText"
+                tools:text="12"
+                />
+
+            <TextView
+                android:id="@+id/tv_correctNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/correct_answers"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@id/tv_questionNumberText"
+                app:layout_constraintTop_toBottomOf="@id/tv_questionNumberText"
+                />
+
+            <TextView
+                android:id="@+id/tv_correctNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_correctNumberText"
+                tools:text="12"
+                />
+
+            <TextView
+                android:id="@+id/tv_successRateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/success_rate"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@id/tv_questionNumberText"
+                app:layout_constraintTop_toBottomOf="@id/tv_correctNumberText"
+                />
+
+            <TextView
+                android:id="@+id/tv_successRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/PrimaryText"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_successRateText"
+                tools:text="12"
+                />
+
+            <RatingBar
+                android:id="@+id/rb_ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:progressTint="@color/PrimaryColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_successRateText"
+                />
+
+            <!--TODO: Add icons to each row item -->
+            <!-- Need to edit database for this -->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

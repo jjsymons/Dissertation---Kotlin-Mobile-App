@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">PoundHelp</string>
+    <string name="go_to_main_menu">Go to the Home Screen</string>
+    <string name="you_scored">You Scored:</string>
+    <string name="quiz_completed">Quiz Completed!</string>
+    <string name="your_score_as_a_percentage">Your score as a percentage:</string>
+    <string name="please_choose_a_subject">Please choose a subject</string>
+
+    <!-- Subjects -->
+    <string name="benefits">Benefits</string>
+    <string name="everyday_money">Everyday Money</string>
+    <string name="family_amp_care"><![CDATA[Family & Care]]></string>
+    <string name="homes">Homes</string>
+    <string name="savings">Savings</string>
+    <string name="work">Work</string>
+    <string name="money_problems">Money Problems</string>
+    <string name="pensions_amp_retirement"><![CDATA[Pensions & Retirement]]></string>
+
+    <string name="you_haven_t_finished_a_quiz_yet_navigate_to_the_home_screen">You haven\'t finished a quiz yet! Navigate to the Home Screen and try one!</string>
+
+    <!-- TODO: link below string section to quiz result feedback-->
+    <!-- Feedback section-->
+
+
+    <!-- row item -->
+    <string name="total_questions">Total Questions:</string>
+    <string name="correct_answers">Correct Answers:</string>
+    <string name="success_rate">Success Rate:</string>
+    <string name="last_attempt">Last Attempt:</string>
+    <string name="take_the_quiz">Take the Quiz</string>
+    <string name="click_one_of_the_options_below">Click one of the options below</string>
+    <string name="multiple_choice">Multiple Choice</string>
+    <string name="fill_in_the_blank">Fill in the Blank</string>
+    <string name="quiz_choice">Quiz Choice:</string>
+    <string name="type">Type:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="need_support">Please find some of our recommended charities if you need support. Clicking the icons, the phone numbers or the website will direct you to them.</string>
+    <string name="support">Support</string>
+    <string name="mental_support">Mental Health and General Support</string>
+    <string name="general_support">General Support</string>
+    <string name="debt_and_gambling_support">Debt and Gambling Support</string>
+
+</resources>

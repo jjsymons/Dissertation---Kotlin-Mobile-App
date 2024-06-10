@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hmz/Desktop/financialapp-master-new/app/src/main/res/layout/fragment_progress.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/joejs/Coding Projects (Sorted)/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-anydpi/main_page_options.xml" value="0.1" />
+        <entry key="..\:/Users/joejs/Coding Projects (Sorted)/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Users/joejs/Coding Projects (Sorted)/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_help.xml" value="0.1" />
+        <entry key="..\:/Users/joejs/Coding Projects (Sorted)/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_phone.xml" value="0.1" />
+        <entry key="..\:/Users/joejs/Coding Projects (Sorted)/Projects/Kotlin/FinancialApp/app/src/main/res/layout/row_item.xml" value="0.1" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/FinancialApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/FinancialApp/app/src/main/res/layout/fragment_module.xml" value="0.25" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/FinancialApp/app/src/main/res/layout/fragment_progress.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/FinancialApp/app/src/main/res/layout/row_item.xml" value="0.5" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/drawable/page_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/drawable/question_answers.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/Backup for finance App/financialapp-master-new/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-anydpi/ic_star.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-anydpi/main_page_options.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-mdpi/info_page.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-v24/question_correct_answer.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable-v24/question_wrong_answer.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/charity_page.xml" value="0.3828125" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/page_foreground.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/drawable/splash_image.xml" value="0.15555555555555556" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/font/roboto_bold.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout-v21/row_item.xml" value="0.1015625" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_choice.xml" value="0.33" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_choice_page.xml" value="0.22" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_fbquestion_page.xml" value="0.33" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_information_page.xml" value="0.33" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_mcquestion_page.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_question_page.xml" value="0.33" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_quiz_result.xml" value="0.5" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/fragment_choice.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/fragment_module.xml" value="0.264" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/fragment_progress.xml" value="0.33" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/fragment_support.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/info_page.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/layout/row_item.xml" value="0.5" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/menu/bottom_nav.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/joejs/OneDrive/Documents/Projects/Kotlin/FinancialApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
